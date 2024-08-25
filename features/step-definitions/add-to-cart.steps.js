@@ -23,13 +23,6 @@ Then('user add {string} to cart', async (item) => {
   await $(item).click()
 })
 
-
-// Given('user in on Cart Page', async () => {
-//   await CartPage.validateItemOnCartPage()
-// })
-
-
-
 Then('Validate item is on the Page', async () => {
     await CartPage.validateItemOnCartPage()
 })
